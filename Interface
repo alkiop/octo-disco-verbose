@@ -1,0 +1,148 @@
+import os
+import time
+
+
+def sayA():
+    os.system("say alpha")
+    time.sleep(0.1)
+
+def sayB():
+    os.system("say bravo")
+    time.sleep(0.1)
+
+def sayC():
+    os.system("say charlie")
+    time.sleep(0.1)
+
+def sayD():
+    os.system("say delta")
+    time.sleep(0.1)
+
+def sayE():
+    os.system("say echo")
+    time.sleep(0.1)
+
+def sayF():
+    os.system("say foxtrot")
+    time.sleep(0.1)
+
+def sayG():
+    os.system("say golf")
+    time.sleep(0.1)
+
+def sayH():
+    os.system("say hotel")
+    time.sleep(0.1)
+
+def sayI():
+    os.system("say india")
+    time.sleep(0.1)
+
+def sayJ():
+    os.system("say juliet")
+    time.sleep(0.1)
+
+def sayK():
+    os.system("say kilo")
+    time.sleep(0.1)
+
+def sayL():
+    os.system("say lama")
+    time.sleep(0.1)
+
+def sayM():
+    os.system("say mike")
+    time.sleep(0.1)
+
+def sayN():
+    os.system("say november")
+    time.sleep(0.1)
+
+def sayO():
+    os.system("say oscar")
+    time.sleep(0.1)
+
+def sayP():
+    os.system("say papa")
+    time.sleep(0.1)
+
+def sayQ():
+    os.system("say quebec")
+    time.sleep(0.1)
+
+def sayR():
+    os.system("say romeo")
+    time.sleep(0.1)
+
+def sayS():
+    os.system("say sierra")
+    time.sleep(0.1)
+
+def sayT():
+    os.system("say tango")
+    time.sleep(0.1)
+
+def sayU():
+    os.system("say uniform")
+    time.sleep(0.1)
+
+def sayV():
+    os.system("say victor")
+    time.sleep(0.1)
+
+def sayW():
+    os.system("say whiskey")
+    time.sleep(0.1)
+
+def sayX():
+    os.system("say x-ray")
+    time.sleep(0.1)
+
+def sayY():
+    os.system("say yankee")
+    time.sleep(0.1)
+
+def sayZ():
+    os.system("say zulu")
+    time.sleep(0.1)
+
+def speechSpace():
+    time.sleep(0.5)
+
+def endSpeech():
+    time.sleep(3)
+    os.system("say -v vicki message terminated")
+
+def startSpeech():
+    os.system("say -v vicki message start")
+    time.sleep(0.4)
+
+def alphabetTest():
+    sayA()
+    sayB()
+    sayC()
+    sayD()
+    sayE()
+    sayF()
+    sayG()
+    sayH()
+    sayI()
+    sayJ()
+    sayK()
+    sayL()
+    sayM()
+    sayN()
+    sayO()
+    sayP()
+    sayQ()
+    sayR()
+    sayS()
+    sayT()
+    sayU()
+    sayV()
+    sayW()
+    sayX()
+    sayY()
+    sayZ()
+
+## This is the interface between the program and the person.
