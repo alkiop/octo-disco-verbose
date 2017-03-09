@@ -1,0 +1,9 @@
+import os
+import time
+
+def whoami():
+    os.system("whoami")
+    print "That is your username."
+
+if raw_input("name"):
+        def()
