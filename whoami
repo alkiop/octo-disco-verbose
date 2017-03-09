@@ -5,5 +5,10 @@ def whoami():
     os.system("whoami")
     print "That is your username."
 
-if raw_input("name"):
-        def()
+varname = raw_input("Request? ")
+
+if varname is ("name"):
+        whoami()
+
+else:
+    print "Incorrect Value"
