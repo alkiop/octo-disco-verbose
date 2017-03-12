@@ -1,0 +1,12 @@
+import os
+import time
+
+def whoami():
+    os.system("whoami")
+    print "That is your username."
+    time.sleep(1)
+    os.system("pwd")
+    print "If that is not the ODV directory, the program might not work properly. Many of the dependencies are in the main branch."
+    time.sleep(1)
+    
+whoami()
